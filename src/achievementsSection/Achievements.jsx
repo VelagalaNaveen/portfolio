@@ -9,38 +9,19 @@ const achievements = [
   //     "https://drive.google.com/file/d/1peJOzHqbgzbRNRQicpbUchx5f71OQw3I/view",
   // },
   {
-    title: "DSA in Java - GeeksforGeeks",
+    title: "SQL Advanced",
     description:
-      "Certified in Data Structures & Algorithms using Java by GeeksforGeeks.",
+      "Certified in SQL in advance level by Hackerrank",
     certificate:
-      "https://media.geeksforgeeks.org/courses/certificates/d192bd2cb28a4102b93b87c001d4030d.pdf",
+      "https://www.hackerrank.com/certificates/267ca1da3d85",
   },
   {
-    title: "NSS Volunteer",
+    title: "Python",
     description:
-      "2-year contribution to National Service Scheme (NSS) activities including camps and social outreach.",
-    certificate: "https://drive.google.com/file/d/1tyPsvWBjQ4o1ueJi-tQCmIM8rY4V-tHK/view",
+      "Certified in SQL in Basic level by Hackerrank",
+    certificate: "https://www.hackerrank.com/certificates/e3f45ee7e3ea",
   },
-  {
-    title: "Smart India Hackathon 2025",
-    description:
-      "Participated in SIH 2025 and built a scalable solution for real-world problems using MERN stack.",
-    certificate: "https://drive.google.com/file/d/1tzUWzhmVF7Hg66Y6OIroZmrafulim_3v/view",
-  },
-  {
-    title: "Solved 500+ DSA Problems",
-    description:
-      "Solved over 500 DSA problems in Java on GeeksforGeeks and LeetCode.",
-    certificate: "",
-    view:"https://www.geeksforgeeks.org/user/rr20085csv/",
-  },
-  {
-    title: "Coding Contests Participation",
-    description:
-      "Attended various national-level online coding contests on GFG and LeetCode.",
-    certificate: "",
-    view:"https://leetcode.com/u/Bingi_Ramesh/",
-  },
+
 ];
 
 const fadeFrom = (direction = "left", delay = 0) => ({

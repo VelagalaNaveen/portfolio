@@ -20,7 +20,7 @@ const AboutMeMain = () => {
           <div className="flex-1">
             <h2 className="text-6xl text-cyan mb-10">About Me</h2>
             <p>
-            I'm Bingi Ramesh, a full-stack developer with a strong interest in solving real-world problems through technology. I primarily work with the MERN stack (MongoDB, Express.js, React, Node.js) and have experience in both frontend and backend development. I’m committed to writing clean, efficient code and constantly expanding my skills through continuous learning and real-world application.
+          I'm Velagala Naveen, an aspiring data analytics professional and a 2026 B.Tech graduate in CSE(Data science). Hands-on experience across the complete analytics workflow – data cleaning, SQL querying, data modelling, and dashboard reporting – built through end-toend business intelligence projects in Retail Business Performance Analysis and road traffic-safety analysis using SQL, Power BI, Advanced Excel, and Python. Possess working knowledge of KPI reporting, DAX measures, report automation, and datadriven decision making. Looking forward to applying these skills in a Data Analyst, Business Analyst, or MIS Analyst role..
             </p>
           </div>
 
@@ -29,13 +29,13 @@ const AboutMeMain = () => {
             <h3 className="text-2xl font-semibold text-orange mb-4">Education</h3>
             <ul className="list-disc ml-6 text-sm text-gray-800 space-y-2">
               <li>
-                <strong>Rajiv Gandhi University of Knowledge Technologies (RGUKT), RK Valley</strong> – B.Tech in Computer Science, 2026.
+                <strong> Sri Venkateswara College of Engineering & Technology, Chittoor </strong> – B.Tech in Computer Science(Data Science), 2026.,  CGPA: 7.4 / 10.0 
               </li>
               <li>
-                <strong>Rajiv Gandhi University of Knowledge Technologies (RGUKT), RK Valley</strong> – Pre-University Course (MBiPC), CGPA: 9.56
+                <strong> Smt. Theresa Junior College, Atmakur </strong> – Senior Inter (MPC),  Percentage: 47% 
               </li>
               <li>
-                <strong>Gowtham E.M High School</strong> – Scored 595/600
+                <strong>Gowtham E.M High School</strong> – Scored 587/600
               </li>
             </ul>
           </div>

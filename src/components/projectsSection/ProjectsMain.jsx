@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, px } from "framer-motion";
 
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -22,28 +22,36 @@ const ProjectsMain = () => {
     //   github:"https://github.com/Bingi-Ramesh/bus-booking-react-frontend"
     // },
     {
-      name: "LMS Connect",
-      year: "Full-stack MERN application enabling users to issue, renew, return, and request books; staff manage inventoryand donation requests.",
+      name: "Retail Business Performance Analysis",
+      year: " Cleaned and transformed e-commerce data using Excel and performed structured business analysis using MySQL. Performed EDA, RFM Analysis, and K-Means Clustering using Python. Built 3 interactive Power BI dashboards with KPIs, slicers, trends, DAX measures, and data relationships. ",
       align: "right",
-      image: "images/library.webp",
-      link: "https://mini-project-library-donation.vercel.app/",
-      github:"https://github.com/Bingi-Ramesh/mini-project-library-donation"
+      image: "https://media.istockphoto.com/id/2148804792/photo/two-data-analysts-working-on-data-analysis-dashboard-for-business-strategy.jpg?s=612x612&w=0&k=20&c=1laDBR58oVJ6gWmbBuv3S4VDyAYyYQ5VQK9j2FBC87c=",
+      link: "https://github.com/VelagalaNaveen/Retail-Business-Performance-Analysis",
+      github:"https://github.com/VelagalaNaveen/Retail-Business-Performance-Analysis"
     },
     {
-      name: "Hospital Manamemant System",
-      year: "Multi-role platform for patients, doctors, receptionists, and admins, appointment booking, billing, and reporting.Integrated ratings and reviews.",
+      name: "Sales Performance Analysis Dashboard ",
+      year: " Cleaned and transformed a retail sales dataset to generate customer, product, order, and sales KPIs. • Built Pivot Tables, Pivot Charts, and an interactive slicer-driven dashboard to visualize sales trends, customer insights, and delivery performance. ",
       align: "left",
-      image: "images/hospital.webp",
-      link: "https://hospital-frontend-btec.onrender.com/",
-      github:"https://github.com/Bingi-Ramesh/hospital-api"
+      image: "https://thumbs.dreamstime.com/b/sales-performance-icon-analysis-essential-357525375.jpg",
+      link: "https://github.com/VelagalaNaveen/Sales-Performance-Analysis-Dashboard-Excel",
+      github:"https://github.com/VelagalaNaveen/Sales-Performance-Analysis-Dashboard-Excel"
     },
     {
-      name: "Event Managemant System",
-      year: "Led frontend development during a college hackathon; implemented CRUD operations on events, volunteer registration & allotment, ratings and reviews.",
+      name: "Social Media Analytics ",
+      year: "Designed and executed complex SQL queries across a 7-table relational database to analyze user engagement, trending hashtags, influencer rankings, and audience behavior. • Applied JOINs, GROUP BY, HAVING, Aggregate Functions, Subqueries, CTEs, and date functions to surface active users, top influencers, engagement trends, and country-wise performance. ",
       align: "right",
-      image: "images/event.jpg",
-      link: "https://github.com/Bingi-Ramesh/Event-Management-System",
-      github:"https://github.com/Bingi-Ramesh/Event-Management-System"
+      image: "https://miro.medium.com/v2/resize:fit:1342/1*VDYr7Exhxs6uSmUrb_b9Bw.png",
+      link: "https://github.com/VelagalaNaveen/Social-Media-Analytics-",
+      github:"https://github.com/VelagalaNaveen/Social-Media-Analytics-"
+    },
+    {
+      name: "Road Traffic Accident Analysis  ",
+      year: "Conducted end-to-end analysis of a road traffic accident dataset to uncover trends in frequency and severity. • Applied data preprocessing, feature engineering, statistical analysis, and visualization to evaluate the impact of weather, vehicle type, and time of day, producing recommendations for accident prevention. ",
+      align: "left",
+      image: "https://resize.indiatvnews.com/en/resize/newbucket/355_-/2016/08/5zqpb3hek0tt-1470288486.jpg",
+      link: "https://github.com/VelagalaNaveen/Road-Traffic-Accident-Analysis-",
+      github:"https://github.com/VelagalaNaveen/Road-Traffic-Accident-Analysis-"
     },
   ];
 
@@ -138,7 +146,7 @@ const ProjectsMain = () => {
       <div className="flex flex-col items-center mt-[100px]">
         <h2 className="text-6xl text-cyan mb-10">Projects</h2>
         <p className="text-lg text-center">
-          I have worked on a variety of web development projects, ranging from
+          I have worked on a variety of projects, ranging from
           responsive websites for small businesses to full-stack applications
           and complex front-end interfaces.
         </p>
@@ -198,7 +206,7 @@ const ProjectsMain = () => {
         </div>
 
         <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white">
-          <img src={image} alt="website image" className="w-full h-full" />
+          <img src={image}  alt="website image" className="w-full h-full" />
         </div>
       </motion.div>
     );
@@ -228,7 +236,7 @@ const ProjectsMain = () => {
           />
         ))}
       </div>
-      <SmallProjectsSection />
+     
 
     </div>
   );

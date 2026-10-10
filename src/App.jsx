@@ -20,8 +20,8 @@ function App() {
       <SubHeroMain />
       <AboutMeMain />
       <SkillsMain />
-      <SubSkills />
-      <ExperienceMain />
+     
+     
       <ProjectsMain />
       <Achievements />
       <ContactMeMain />

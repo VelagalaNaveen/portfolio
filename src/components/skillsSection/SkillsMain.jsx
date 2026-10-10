@@ -5,27 +5,35 @@ import {
   FaNodeJs,
   FaJava,
   FaGithub,
-  FaTools,
+  FaPython,
+  FaDatabase,
+  FaFileExcel,
+  FaCode,
 } from "react-icons/fa";
+
 import { IoLogoJavascript } from "react-icons/io";
-import { SiMongodb, SiExpress, SiDatabricks } from "react-icons/si";
+
+import {
+  SiMongodb,
+  SiExpress,
+  SiMysql,
+} from "react-icons/si";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
-  { skill: "HTML", icon: FaHtml5 },
-  { skill: "CSS", icon: FaCss3Alt },
-  { skill: "JavaScript", icon: IoLogoJavascript },
-  { skill: "MongoDB", icon: SiMongodb },
-  { skill: "ExpressJS", icon: SiExpress },
-  { skill: "NodeJS", icon: FaNodeJs },
-  { skill: "ReactJS", icon: FaReact },
-  { skill: "DSA", icon: SiDatabricks },
-  { skill: "Java", icon: FaJava },
-  { skill: "GitHub", icon: FaGithub },
-  { skill: "Postman", icon: FaTools },
-];
+  { skill: "MYSQL", icon: SiMysql },
+  { skill: "Python", icon: FaPython },
+  { skill: "Power BI", icon: FaDatabase },
+  { skill: "Data Modeling", icon: FaDatabase },
+  { skill: "Excel", icon: FaFileExcel },
+  { skill: "Data Analysis", icon: FaDatabase },
+  { skill: "Business Intelligence", icon: FaDatabase },
 
+ 
+  { skill: "GitHub", icon: FaGithub },
+];
 const coreSubjects = [
   "Operating Systems",
   "Computer Networks",
@@ -162,8 +170,8 @@ const SkillsMain = () => {
           </div>
         </div>
 
-        {/* Core Subjects Section */}
-        <CoreSubjectsSection />
+        {/* Core Subjects Section
+        <CoreSubjectsSection /> */}
       </div>
     </>
   );

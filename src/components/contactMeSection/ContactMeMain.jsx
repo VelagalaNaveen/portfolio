@@ -123,14 +123,14 @@ const ContactMeMain = () => {
             className="max-w-[250px]"
           />
           <div className="flex flex-col gap-4">
-            <SingleInfo text="rameshyadavbingi776@gmail.com" Icon={HiOutlineMail} />
-            <SingleInfo text="+91 9392612161" Icon={FiPhone} />
+            <SingleInfo text="vnaveenyadav44@gmail.com " Icon={HiOutlineMail} />
+            <SingleInfo text="+91 6300252523" Icon={FiPhone} />
             <SingleInfo text="India, Andhra Pradesh, Kurnool" Icon={IoLocationOutline} />
           </div>
           <div className="flex gap-4">
-            <SingleContactSocial link="https://www.linkedin.com/in/bingi-ramesh-02b754280/" Icon={FaLinkedinIn} />
-            <SingleContactSocial link="https://github.com/Bingi-Ramesh" Icon={FiGithub} />
-            <SingleContactSocial link="https://www.instagram.com/bingi_ramesh_yadav/" Icon={FaInstagram} />
+            <SingleContactSocial link="https://www.linkedin.com/in/velagalanaveen/" Icon={FaLinkedinIn} />
+            <SingleContactSocial link="https://github.com/velagalanaveen" Icon={FiGithub} />
+            <SingleContactSocial link="https://www.instagram.com/v_navi_yadav76?utm_source=qr&dlrf=cTJ1dDZxMmp1NDRm" Icon={FaInstagram} />
           </div>
         </div>
       </div>
